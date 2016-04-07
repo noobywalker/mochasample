@@ -1,7 +1,7 @@
 /*  global describe it before beforeEach after afterEach:true*/
 var assert = require('assert');
 var should = require('should');
-var User = require('./user.js');
+var User = require('./user');
 
 // Hooks
 // Mocha provides the hooks before(), after(), beforeEach(), and afterEach(), which can be used to set up preconditions and clean up after your tests.
